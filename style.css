@@ -28,9 +28,7 @@ body {
 
 h1,
 h2,
-h3,
-h5,
-h6 {
+h3{
   font-family: "DM Serif Display", serif;
 }
 
@@ -52,12 +50,6 @@ ul {
   margin: 0 auto;
   padding: 0 2rem;
 }
-
-/* .img-fluid {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
 
 .line {
   display: block;
@@ -220,7 +212,6 @@ header {
   align-items: flex-start;
 }
 
-/* class="flex align-items-start" */
 .hero::before,
 .hero::after {
   display: block;
@@ -298,7 +289,7 @@ header {
   height: 100%;
 }
 
-/* We're Different / features */
+/* features */
 .features {
   margin-top: 15rem;
   padding: 10rem 0;
@@ -330,7 +321,7 @@ header {
   color: var(--dark-grayish-violet);
 }
 
-/* About how we work */
+/* About */
 .about {
   padding: 3rem 0;
 }
