@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="intro.css">
+<script src="app.js" defer></script>
 </head>
 
 <body>
@@ -23,23 +24,23 @@
             <li class="nav_item"><a href="#" class="nav_link">How we work</a></li>
             <li class="nav_item"><a href="#" class="nav_link">Blog</a></li>
             <li class="nav_item"><a href="#" class="nav_link">Account</a></li>
-            <li class="nav_item"><a href="#" class="nav_link nav_link--bordered">View plans</a></li>
+            <li class="nav_item"><a href="#" class="nav_link bordered_btn">View plans</a></li>
           </ul>
           <!-- hamburger menu -->
-          <div class="hamburger-menu" id="toggle-menu">
+          <div class="hamburger-menu" id="toggle_menu">
             <span></span>
           </div>
         </nav>
       </div>
     </header>
-    <!-- end of header -->
+
 
     <main>
       <!-- Intro -->
-      <section class="intro">
+      <section class="hero">
         <div class="container">
           <div class=" wrap ">
-            <div class="intro_text-container">
+            <div class="hero_text-container">
               <hr class="line">
               <h1>Humanizing <br>your insurance.</h1>
               <p>
@@ -49,8 +50,8 @@
               </p>
               <a href="#" class="btn ">View plans</a>
             </div>
-            <div class="intro_image-container">
-              <picture class="intro_image">
+            <div class="hero_image-container">
+              <picture class="hero_image">
                 <source media="(max-width: 500px )" srcset="images/image-intro-mobile.jpg">
                 <img src="images/image-intro-desktop.jpg" alt="intro image" srcset="images/image-intro-desktop.jpg">
               </picture>
@@ -59,13 +60,13 @@
         </div>
       </section>
 
-      <!-- We’re different / Features -->
+      <!-- Features -->
       <section class="features">
         <div class="container">
           <hr class="line">
           <h1>We're Different</h1>
           <div class="feature_container">
-            <div class="feature">
+            <div class="feature_text">
               <img src="images/icon-snappy-process.svg" alt="">
               <h3>Snappy Process</h3>
               <p>
@@ -73,7 +74,7 @@
                 stuck filling in tedious forms.
               </p>
             </div>
-            <div class="feature">
+            <div class="feature_text">
               <img src="images/icon-affordable-prices.svg" alt="">
               <h3>Affordable Prices</h3>
               <p>
@@ -81,7 +82,7 @@
                 but we still offer the best coverage possible.
               </p>
             </div>
-            <div class="feature">
+            <div class="feature_text">
               <img src="images/icon-snappy-process.svg" alt="">
               <h3>People First</h3>
               <p>
@@ -96,7 +97,7 @@
       <!-- About how we work -->
       <section class="about">
         <div class="container">
-          <div class="box ">
+          <div class="about_text">
             <h2>Find out more <br> about how we work</h2>
             <button class="btn">How we work</button>
           </div>
@@ -107,34 +108,34 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-head">
+        <div class="footer_head">
           <img src="images/logo.svg" alt="logo">
-          <ul class="social-media ">
-            <li class="social-media_item">
-              <a href="#" class="social-media_icon">
+          <ul class="social_media ">
+            <li class="social_media_item">
+              <a href="#" class="social_media_icon">
                 <img src="images/icon-facebook.svg" alt="facebook">
               </a>
             </li>
-            <li class="social-media_item">
-              <a href="#" class="social-media_icon">
+            <li class="social_media_item">
+              <a href="#" class="social_media_icon">
                 <img src="images/icon-twitter.svg" alt=" twitter">
               </a>
             </li>
-            <li class="social-media_item">
-              <a href="#" class="social-media_icon">
+            <li class="social_media_item">
+              <a href="#" class="social_media_icon">
                 <img src="images/icon-pinterest.svg" alt=" pinterest">
               </a>
             </li>
-            <li class="social-media_item">
-              <a href="#" class="social-media_icon">
+            <li class="social_media_item">
+              <a href="#" class="social_media_icon">
                 <img src="images/icon-instagram.svg" alt="icon instagram">
               </a>
             </li>
           </ul>
         </div>
 
-        <div class="footer-navigation">
-          <div class="footer-list">
+        <div class="footer_navigation">
+          <div class="footer_list">
             <h4>Our company</h4>
             <ul>
               <li><a href="#">How we work</a></li>
@@ -144,7 +145,7 @@
             </ul>
           </div>
 
-          <div class="footer-list">
+          <div class="footer_list">
             <h4>Help me</h4>
             <ul>
               <li><a href="#">FAQ</a></li>
@@ -153,7 +154,7 @@
               <li><a href="#">Cookies</a></li>
             </ul>
           </div>
-          <div class="footer-list">
+          <div class="footer_list">
             <h4>Contact</h4>
             <ul>
               <li><a href="#">Sales</a></li>
@@ -161,7 +162,7 @@
               <li><a href="#">Live chat</a></li>
             </ul>
           </div>
-          <div class="footer-list">
+          <div class="footer_list">
             <h4>Others</h4>
             <ul>
               <li><a href="#">Careers</a></li>
@@ -172,8 +173,10 @@
         </div>
       </div>
     </footer>
-
-    <script src="app.js"></script>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://www.frontendmentor.io/profile/BoroleShubhangi">shubhangi borole</a>.
+    </div>
   </body>
-
 </html>
